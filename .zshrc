@@ -407,4 +407,4 @@ source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.
 #sfetch | lolcat
 eval "$(starship init zsh)"
 
-alias config='/usr/bin/git --git-dir=/home/ludwig/.cfg/ --work-tree=/home/ludwig'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
